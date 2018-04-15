@@ -1,5 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
+<<<<<<< HEAD
 title = "FinanceMNL"
 theme = "hugo-type-theme"
 # Enable comments by entering your Disqus shortname
@@ -55,3 +56,12 @@ paginate = 10
 		youtube = ""
 		gitlab = ""
 		trello = ""
+=======
+languageLang = "en"
+title = "My new Victor-Hugo site"
+
+# RSS, categories and tags disabled for an easy start
+# See configuration options for more details: 
+# https://gohugo.io/getting-started/configuration/#toml-configuration
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+>>>>>>> 7565745ceb38f6d0e71316c7bde66a1b27f32165

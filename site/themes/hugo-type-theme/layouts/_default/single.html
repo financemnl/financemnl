@@ -15,9 +15,9 @@
 		<section class="post-content">
 			{{ .Content }}
 
-			{{ if (not (eq .Site.DisqusShortname "")) | and (not .Params.disableComments) }}
+			{{ if (not (eq .Site.Params.GraphCommentId "")) | and (not .Params.disableComments) }}
 				<hr>
-				{{ template "_internal/disqus.html" . }}
+				{{ partial "commenting.html" . }}
 			{{ end }}
 
 			{{ if eq .Type "post" }}

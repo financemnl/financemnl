@@ -47,10 +47,5 @@
     "url-loader": "^0.6.2",
     "webpack": "3.10.0",
     "whatwg-fetch": "^2.0.3"
-  },
-  "babel": {
-    "presets": [
-      "es2015"
-    ]
   }
 }

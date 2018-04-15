@@ -47,15 +47,6 @@ gulp.task("js", (cb) => {
   });
 });
 
-// Images
-gulp.task('images', () => {
-    return gulp.src('src/img/**/*.{png,jpg,jpeg,gif,svg,webp,ico}')
-        .pipe(newer('./dist/img'))
-        .pipe(print())
-        .pipe(imagemin())
-        .pipe(gulp.dest('./dist/img'));
-});
-
 // Move all fonts in a flattened directory
 gulp.task('fonts', () => (
   gulp.src("./src/fonts/**/*")

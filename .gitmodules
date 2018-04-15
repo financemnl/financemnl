@@ -1,0 +1,3 @@
+[submodule "site/themes/hugo-type-theme"]
+	path = site/themes/hugo-type-theme
+	url = https://github.com/andygrunwald/hugo-type-theme.git

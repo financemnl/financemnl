@@ -6,8 +6,7 @@ theme = "hugo-type-theme"
 googleAnalytics = "UA-117242242-1"
 # Posts per page
 paginate = 10
-# Comment the themesDir option if you use this theme in production
-#themesDir = "../.."
+enableRobotsTXT = true
 
 
 [params]

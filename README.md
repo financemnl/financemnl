@@ -22,6 +22,8 @@ We used [Victor Hugo](https://github.com/netlify/victor-hugo), a Hugo boilerplat
 
 We use it for building our Hugo website + asset pipelining.
 
-We upload our source code to this repository. Let [Netlify](https://www.netlify.com/github-pages-vs-netlify/) build our production environment which includes asset optimizations and [pre-rendering](https://prerender.io/).
+We upload our source code to this repository. 
+
+Trigger [Netlify](https://www.netlify.com/github-pages-vs-netlify/) to build our production environment every time we commit to **master**. Netlify does the asset optimizations and [pre-rendering](https://prerender.io/).
 
 Redirect our domain name provider to Netlify's DNS server (for speed and reliability). Done! 😄

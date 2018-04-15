@@ -17,8 +17,8 @@ This is meant as a step by step guide of how to prioritize and what to do with m
 
 <!--more-->
 
-<br>
-## Step 0: Budget, reduce expenses
+## 
+Step 0: Budget, reduce expenses
 
 A fundamental of healthy personal finance is [budgeting](<>). The first step should then be to create a budget.
 
@@ -81,19 +81,19 @@ After you ensure you're taking advantage of your employer match, you should use 
 
 In all cases, you should make the minimum payments on all of your debts before paying down specific debts more quickly.
 
-**There are two main methods of paying down debt:**
+### There are two main methods of paying down debt:
 
-In the **avalanche method**
+#### In the **avalanche method**
 : Debts are paid down in order of interest rate, starting with the debt that carries the highest interest rate.
 
 This is the financially optimal method of paying down debt, and you will pay less money overall compared to the snowball method.
 
-The **snowball method**,
+#### The **snowball method**,
 : Popularized by Dave Ramsey, debts are paid down in order of balance size, starting with the smallest.
 
 Paying off small debts first may give you a psychological boost and improve one's cash flow situation, as paid off debts free up minimum payments. The downside is that larger loans (that may be at higher interest rates) are left untouched for longer, costing more in the long run.
 
-### What's the best method? 
+### What's the best method?
 
 Most personal financial forum tend to favor the avalanche method, but do not underestimate the psychological side of debt payments.
 

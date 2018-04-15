@@ -30,10 +30,10 @@ canonifyURLs = true
 	GraphCommentId = "FinanceMNL"
 	# or use Gravatar by adding your email address to generate a unique avatar
 	#gravatar = "your@email.com"
-	headerText = "A Millennial's Approach on Personal Finance for Filipinos."
-	# To add a header background to the main site, save your image under static/img/.
+	headerText = "A Filipino Millennial's Approach on Personal Finance."
+	# To add a header background to the main site, save your image under static/img/header.png.
 	# If now image path is provided, a orange background will be shown instead.
-	headerImage = "img/avatar.png"
+  headerimage = "img/header.png"
 	copyright = "Released under the [MIT license](https://opensource.org/licenses/MIT)<br>Powered by [Hugo](//gohugo.io/). Theme based on [Hugo-Type](https://github.com/andygrunwald/hugo-type-theme#this-is-a-fork) and [Decode](https://www.machothemes.com/theme/decode/).<br>Source on [Github](https://github.com/financemnl/financemnl)"
 
 

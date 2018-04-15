@@ -6,8 +6,11 @@
 			<div class="home">
 
 				{{ if .Site.Params.headerText }}
-				<div class="call-out" style="background-image: url('{{ .Site.BaseURL }}/img/{{ .Site.Params.headerImage }}')">
-					{{ .Site.Params.headerText | markdownify }}
+				<div class="call-out">
+					  <img src="/img/header.png" alt="FinanceMNL" />
+						<figcaption>
+					   {{ .Site.Params.headerText | markdownify }}
+					 </figcaption>
 				</div>
 				{{ end }}
 

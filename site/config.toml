@@ -24,7 +24,7 @@ paginate = 10
 	# or use Gravatar by adding your email address to generate a unique avatar
 	#gravatar = "your@email.com"
 
-	headerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br>Remove all header text in **config.toml** to disable this feature."
+	headerText = "A Millennial's Approach on Personal Finance for Filipinos."
 	# To add a header background to the main site, save your image under static/img/.
 	# If now image path is provided, a orange background will be shown instead.
 	headerImage = ""
@@ -61,7 +61,7 @@ languageLang = "en"
 title = "My new Victor-Hugo site"
 
 # RSS, categories and tags disabled for an easy start
-# See configuration options for more details: 
+# See configuration options for more details:
 # https://gohugo.io/getting-started/configuration/#toml-configuration
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 >>>>>>> 7565745ceb38f6d0e71316c7bde66a1b27f32165

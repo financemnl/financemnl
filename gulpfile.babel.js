@@ -21,8 +21,8 @@ gulp.task("hugo", (cb) => buildSite(cb));
 gulp.task("hugo-preview", (cb) => buildSite(cb, hugoArgsPreview));
 
 // Build/production tasks
-gulp.task("build", ["css", "js", "fonts"], (cb) => buildSite(cb, [], "production"));
-gulp.task("build-preview", ["css", "js", "fonts"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
+gulp.task("build", ["css", "js", "fonts", "images"], (cb) => buildSite(cb, [], "production"));
+gulp.task("build-preview", ["css", "js", "fonts", "images"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
 
 // Compile CSS with PostCSS
 gulp.task("css", () => (
@@ -47,6 +47,15 @@ gulp.task("js", (cb) => {
   });
 });
 
+// Images
+gulp.task('images', () => {
+    return gulp.src('src/img/**/*.{png,jpg,jpeg,gif,svg,webp,ico}')
+        .pipe(newer('./dist/img'))
+        .pipe(print())
+        .pipe(imagemin())
+        .pipe(gulp.dest('./dist/img'));
+});
+
 // Move all fonts in a flattened directory
 gulp.task('fonts', () => (
   gulp.src("./src/fonts/**/*")
@@ -67,6 +76,7 @@ gulp.task("server", ["hugo", "css", "js", "fonts"], () => {
   gulp.watch("./src/fonts/**/*", ["fonts"]);
   gulp.watch("./site/**/*", ["hugo"]);
 });
+
 
 /**
  * Run hugo and build the site

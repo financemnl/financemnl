@@ -11,6 +11,9 @@ enableRobotsTXT = true
 
 [params]
 	author = "Niko Jaro"
+	authortwitter = "FinanceMNL"
+	#og_image = "http://www.change-gear.com/wp-content/uploads/2015/05/Big-journeys.jpg"
+	#og_image_url = "http://www.change-gear.com/wp-content/uploads/2015/05/Big-journeys.jpg"
 	description = "A Filipino Millennial's Approach on Personal Finance."
 	# The keywords will be added as a meta tag. Delimit them with a comma.
 	keywords = "finance,personal finance,ph personal finance,personal finance philippines,finance ph"
@@ -20,7 +23,6 @@ enableRobotsTXT = true
 	GraphCommentId = "FinanceMNL"
 	# or use Gravatar by adding your email address to generate a unique avatar
 	#gravatar = "your@email.com"
-
 	headerText = "A Millennial's Approach on Personal Finance for Filipinos."
 	# To add a header background to the main site, save your image under static/img/.
 	# If now image path is provided, a orange background will be shown instead.

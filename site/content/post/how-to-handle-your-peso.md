@@ -17,8 +17,7 @@ This is meant as a step by step guide of how to prioritize and what to do with m
 
 <!--more-->
 
-## 
-Step 0: Budget, reduce expenses
+## Step 0: Budget, reduce expenses
 
 A fundamental of healthy personal finance is [budgeting](<>). The first step should then be to create a budget.
 
@@ -33,7 +32,7 @@ Your budget should help you cover the following essential expenses until you hav
 * Income earning expenses (such as transportation)
 * Minimum payment on all debts
 
-<sup>Basic sustenance are harder to eliminate than "entertainment," eating out, or clothing expenses.</sup>
+<sup> Basic sustenance are harder to eliminate than "entertainment," eating out, or clothing expenses. </sup>
 
 ## Step 1: Emergency fund
 

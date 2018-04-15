@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Welcome to FinanceMNL's Repository
 
 ## Why is this site on GitHub?

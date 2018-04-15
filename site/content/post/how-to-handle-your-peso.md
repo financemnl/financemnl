@@ -1,7 +1,7 @@
 +++
 date = "2018-04-13"
 tags = ["finance", "guide", "wiki"]
-featureimage = "img/books-924780_1920.jpg"
+featureimage = "img/uploads/books-924780_1920.jpg"
 title = "How to Handle Your Peso"
 +++
 

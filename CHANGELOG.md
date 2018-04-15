@@ -23,7 +23,7 @@ notable exceptions are:
 
 ### Added
 
-- Website Logo/Favicon by Renan Barco
+- Website Logo/Favicon by [Renan Barco](https://dribbble.com/renanbarco)
 
 
 ### Changed

@@ -9,6 +9,9 @@ paginate = 5
 enableRobotsTXT = true
 canonifyURLs = true
 
+[sitemap]
+    changefreq = "weekly"
+    priority = 0.5
 
 [params]
 	author = "Niko Jaro"

@@ -9,12 +9,11 @@ collections:
   - name: "post"
     label: "Posts"
     folder: "site/content/post"
-    drafts: true
     create: true
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Featured Image", name: "featureimage", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }

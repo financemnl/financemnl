@@ -31,7 +31,7 @@ canonifyURLs = true
 	# To add a header background to the main site, save your image under static/img/.
 	# If now image path is provided, a orange background will be shown instead.
 	headerImage = ""
-	copyright = "Released under the MIT license<br>Powered by [Hugo](//gohugo.io/)"
+	copyright = "Released under the [MIT license](https://opensource.org/licenses/MIT)<br>Powered by [Hugo](//gohugo.io/). Theme based on [Hugo-Type](https://github.com/andygrunwald/hugo-type-theme#this-is-a-fork) and [Decode](https://www.machothemes.com/theme/decode/).<br>Source on [Github](https://github.com/financemnl/financemnl)"
 
 
 	[params.social]
@@ -44,7 +44,7 @@ canonifyURLs = true
 		dribbble = ""
 		facebook = "FinanceMNL"
 		flickr = ""
-		github = "financemnl/financemnl"
+		github = ""
 		googleplus = ""
 		instagram = ""
 		linkedin = ""

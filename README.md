@@ -16,7 +16,7 @@ Hugo renders a typical website of moderate size in a fraction of a second. A goo
 
 Hugo is designed to work well for any kind of website including blogs, tumbles, and docs.
 
-## How did you build it?
+## What's the build process like?
 
 We used [Victor Hugo](https://github.com/netlify/victor-hugo), a Hugo boilerplate for creating truly epic websites.
 

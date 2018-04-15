@@ -1,17 +1,28 @@
-+++
-date = "2018-04-13"
-tags = ["finance", "guide", "wiki"]
-featureimage = "img/uploads/books-924780_1920.jpg"
-title = "How to Handle Your Peso"
-+++
+---
+title: How to Handle Your Peso
+tags:
+  - finance
+  - guide
+  - wiki
+date: '2018-04-13'
+featureimage: img/uploads/books-924780_1920.jpg
+---
+## Introduction to handling your own money
 
-## What to prioritize / what to do with money
-This is meant as a step by step guide of how to prioritize and what to do with money. The steps are meant to be followed in order. You can always come back here once you're done with Step X.
+
+
+Congratulations! Whether you've just landed your first job or you just realized that the way you've been managing your finances isn't working, know that you're doing the right thing by seeking guidance. 
+
+flksmslg 
+
+ This is meant as a step by step guide of how to prioritize and what to do with money. The steps are meant to be followed in order. You can always come back here once you're done with Step X.
+
 <!--more-->
+
 <br>
 ### Step 0: Budget, reduce expenses
 
-A fundamental of healthy personal finance is [budgeting](). The first step should then be to create a budget.
+A fundamental of healthy personal finance is [budgeting](<>). The first step should then be to create a budget.
 
 This will help identify areas where expenses can be reduced in order to have leftover money for the next steps.
 
@@ -27,6 +38,7 @@ Your budget should help you cover the following essential expenses until you hav
 <sup>Basic sustenance are harder to eliminate than "entertainment," eating out, or clothing expenses.</sup>
 
 ### Step 1: Emergency fund
+
 An emergency fund is an amount of money kept somewhere liquid (accessible) in a way that it can be accessed at any time, such as a savings account<sup>*</sup>. This money is meant to cover unexpected expenses such as loss of work, car / appliance repairs, etc.
 
 Should you ever use part of your emergency fund, you must come back to this step and replenish it before going back to any further steps.
@@ -34,11 +46,13 @@ Should you ever use part of your emergency fund, you must come back to this step
 <sup>*_Consider local banks such as BDO/BPI/Metrobank/Security Bank. Banks that are easily accessible, and with branches that are open on weekends. It's also a plus if they have a ₱30,000 - 40,000 ATM withdrawal limit (for easier access)._</sup>
 
 ##### How much money to have in an emergency fund
+
 The usual recommendation for most people is 3 to 6 months of expenses. If your income is variable or uncertain, it may be worth having a bigger fund such as 9 to 12 months of expenses.
 
-Having a budgeting app or a budgeting spreadsheet will help here, especially one's with reports/trends. Refer to [*budgeting*]().
+Having a budgeting app or a budgeting spreadsheet will help here, especially one's with reports/trends. Refer to [_budgeting_](<>).
 
 ##### Repaying high interest debt
+
 If you are currently repaying high interest (for example above 10% interest) debt, you should start with a smaller emergency fund of 1 or 2 months of expenses (or ₱ 25,000 w/e is higher) while you pay down the high interest debt.
 
 ##### Where should I put my emergency fund
@@ -105,7 +119,7 @@ Any other remaining debt can be paid off in full at this point, or you could dec
 
 You've now reached **personal finance maturity**. It's up to you to decide what to do with the leftover money. Some common suggestions could be:
 
-- Saving for children's education
-- Saving for property down payment
-- Saving for vacation
-- Increasing retirement savings to retire early
+* Saving for children's education
+* Saving for property down payment
+* Saving for vacation
+* Increasing retirement savings to retire early

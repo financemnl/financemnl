@@ -17,6 +17,33 @@ notable exceptions are:
 
 ********************************************************************************
 
+2018-04-15
+---------------------------------------
+
+
+### Added
+
+- Website Logo/Favicon by Renan Barco
+
+
+### Changed
+
+- Config.toml to add links to License and Github Repo.
+
+
+### Removed
+
+- Favicon and Avatar from Themes.
+
+### Fixed
+
+Nothing.
+
+#### Security fixes
+
+Nothing.
+
+
 2018-04-13
 ---------------------------------------
 

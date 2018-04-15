@@ -2,28 +2,12 @@
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 <head>
 	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<!--SEO Optimizations-->
-	{{ partial "seo-schema" . }}
-
-	<!-- open graph -->
-	<meta property="og:title" content="{{ if ne .URL "/" }} {{ .Title }} - {{ end }} {{ .Site.Title }}" />
-	<meta property="og:description" content="{{ .Params.description }}" />
-	<meta property="og:site_name" content="{{ .Site.Title }}" />
-	<meta property="og:url" content="{{ .Permalink }}" />
-	<meta property="fb:app_id" content="{{ .Site.Params.fb_appid}}" />
-	<meta property="og:locale" content="{{ .Site.LanguageCode }}">
-
-	<!-- twitter -->
-	<meta name="twitter:card" content="summary_large_image"/>
-	<meta name="twitter:image:src" content="{{ .Params.og_image }}"/>
-	<meta name="twitter:card" content="summary"/>
-	<meta name="twitter:title" content="{{ .Title }}"/>
-	<meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}"/>
-	<meta name="twitter:domain" content="{{ .Site.Title }}"/>
-	<meta name="twitter:creator" content="{{ .Site.Params.authortwitter }}"/>
+	{{ partial "seo-schema.html" . }}
 
 	<title>{{ .Title}}{{ if not .IsHome }}&middot; {{ .Site.Title }}{{ end }}</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
 	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 	{{ with .Site.Params.keywords }}<meta name="keywords" content="{{ . }}">{{ end }}
@@ -39,14 +23,7 @@
 		<link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
 	{{- end }}
 
-	{{ "<!-- CSS -->" | safeHTML }}
-	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css">
-
-	{{ "<!-- Font Awesome -->" | safeHTML }}
-	<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" media="all">
-
-	{{ "<!-- Google Fonts -->" | safeHTML }}
-	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css" media="all">
+	{{ block "styles" . }}{{ partial "styles.html" . }}{{ end }}
 
 	<script src="{{ .Site.BaseURL }}js/netlify-identity-widget.js"></script>
 </head>

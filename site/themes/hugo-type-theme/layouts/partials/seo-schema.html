@@ -24,3 +24,20 @@
     "keywords" : [ {{ if isset .Params "tags" }}{{ range .Params.tags }}"{{ . }}",{{ end }}{{ end }}"Blog" ]
 }
 </script>
+
+<!-- open graph -->
+<meta property="og:title" content="{{ if ne .URL "/" }} {{ .Title }} - {{ end }} {{ .Site.Title }}" />
+<meta property="og:description" content="{{ .Params.description }}" />
+<meta property="og:site_name" content="{{ .Site.Title }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="fb:app_id" content="{{ .Site.Params.fb_appid}}" />
+<meta property="og:locale" content="{{ .Site.LanguageCode }}">
+
+<!-- twitter -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image:src" content="{{ .Params.og_image }}"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="{{ .Title }}"/>
+<meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}"/>
+<meta name="twitter:domain" content="{{ .Site.Title }}"/>
+<meta name="twitter:creator" content="{{ .Site.Params.authortwitter }}"/>
